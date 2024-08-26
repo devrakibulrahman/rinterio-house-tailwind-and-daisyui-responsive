@@ -30,60 +30,78 @@
 </head>
 <body>
     <!-- ================= header -->
-    <header id="header" class="w-full min-h-screen bg-gradient-to-t from-[#FFFFFF] to-[#f3f3f3d5]">
+    <header id="header" class="w-full min-h-[20vh] bg-gradient-to-t from-[#FFFFFF] to-[#f3f3f3d5]">
         <div class="container mx-auto px-5">
-            <!-- ================ navbar -->
-            <div class="w-full flex items-center justify-between py-8 md:py-[40px] lg:py-[48px]">
+            <!-- ====================== navigation section -->
+            <div class="w-full flex items-center justify-between py-8 md:pt-[40px] md:pb-[50px] ">
                 <div class="flex items-center justify-center gap-2">
                     <div class="w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-[#212121]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-[#212121]">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                        </svg>
+                        </svg>                          
                     </div>
-                    <h1 class="text-[28px] font-extrabold font-manrope leading-[38px] text-[#212121] lg:text-[32px] lg:leading-[44px]">Rinterio</h1>
+                    <h1 class="font-manrope font-extrabold text-[28px] leading-[38px] text-[#212121] lg:text-[32px] lg:leading-[44px]">Rinterio</h1>
                 </div>
-                <!-- ============ desktop nav -->
+                <!-- ================== nav link -->
                 <nav class="hidden xl:block">
                     <ul class="flex items-center justify-center gap-[37px]">
-                        <li class="text-base font-extrabold font-manrope leading-[22px]"><a href="#" class="text-[#494949]">Home</a></li>
-                        <li class="text-base font-extrabold font-manrope leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition duration-300 ease-in-out">Services</a></li>
-                        <li class="text-base font-extrabold font-manrope leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition duration-300 ease-in-out">Portfolio</a></li>
-                        <li class="text-base font-extrabold font-manrope leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition duration-300 ease-in-out">Blogs</a></li>
-                        <li class="text-base font-extrabold font-manrope leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] trasition duration-300 ease-in-out">Contact</a></li>
+                        <li class="font-manrope font-extrabold text-base leading-[22px]"><a href="#" class="text-[#494949]">Home</a></li>
+                        <li class="font-manrope font-extrabold text-base leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition-all duration-300 ease-in-out">Services</a></li>
+                        <li class="font-manrope font-extrabold text-base leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition-all duration-300 ease-in-out">Portfolio</a></li>
+                        <li class="font-manrope font-extrabold text-base leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition-all duration-300 ease-in-out">Blogs</a></li>
+                        <li class="font-manrope font-extrabold text-base leading-[22px]"><a href="#" class="text-[#737373] hover:text-[#494949] transition-all duration-300 ease-in-out">Contact Us</a></li>
                     </ul>
                 </nav>
-                <!-- ============ tablet and mobile nav -->
                 <div class="flex items-center justify-center gap-[15px]">
-                    <div class="hidden md:block">
-                        <div class="flex items-center justify-center gap-[15px]">
-                            <button class="group w-[48px] h-[48px] bg-white border border-[#E9E9E9] rounded-full hover:bg-[#ABEF5F] hover:border-[#ABEF5F] transition-all duration-300 ease-in-out flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#737373] group-hover:text-[#212121] transition-all duration-300 ease-in-out">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                                </svg>                          
-                            </button>
-                            <button class="group w-[48px] h-[48px] bg-white border border-[#E9E9E9] rounded-full hover:bg-[#ABEF5F] hover:border-[#ABEF5F] transition-all duration-300 ease-in-out flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#737373] group-hover:text-[#212121] transition-all duration-300 ease-in-out">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                                </svg>                          
-                            </button>
-                            <button class="px-5 py-[10px] flex items-center justify-center bg-[#ABEF5F] rounded-full text-[20px] font-extrabold font-manrope leading-[27px] text-[#1C1C1C] gap-2">
-                                <span>Book Consult</span>
-                                <div class="w-[28px] h-[28px] bg-[#1C1C1C] text-white rounded-full flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>                                  
-                                </div>                              
-                            </button>
-                        </div>
+                    <div class="hidden md:flex md:items-center md:justify-center md:gap-[15px]">
+                        <button class="group w-[48px] h-[48px] bg-[#FFFFFF] rounded-full border border-[#E9E9E9] flex items-center justify-center hover:border-[#ABEF5F] hover:bg-[#ABEF5F] transition-all duration-300 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#737373] group-hover:text-[#212121] transition-all duration-300 ease-in-out">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>                                                     
+                        </button>
+                        <button class="group w-[48px] h-[48px] bg-[#FFFFFF] rounded-full border border-[#E9E9E9] flex items-center justify-center hover:border-[#ABEF5F] hover:bg-[#ABEF5F] transition-all duration-300 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" size-6 text-[#737373] group-hover:text-[#212121] transition-all duration-300 ease-in-out">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>                                                       
+                        </button>
+                        <button class="w-[208px] h-[48px] flex items-center justify-center bg-[#ABEF5F] rounded-full gap-2">
+                            <span class="font-manrope font-extrabold text-xl leading-[27px] text-[#1C1C1C]">Book Consult</span>
+                            <div class="w-[28px] h-[28px] bg-[#1C1C1C] rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg> 
+                            </div>                             
+                        </button>
                     </div>
-                    <button class="group w-[48px] h-[48px] bg-white border border-[#E9E9E9] rounded-full hover:bg-[#ABEF5F] hover:border-[#ABEF5F] transition-all duration-300 ease-in-out flex items-center justify-center lg:hidden">
+                    <button class="group w-[48px] h-[48px] bg-[#FFFFFF] rounded-full border border-[#E9E9E9] flex items-center justify-center hover:border-[#ABEF5F] hover:bg-[#ABEF5F] transition-all duration-300 ease-in-out xl:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#737373] group-hover:text-[#212121] transition-all duration-300 ease-in-out">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>                      
+                        </svg>                          
                     </button>
                 </div>
             </div>
-
+            <!-- ====================== home section -->
+            <section id="home-section" class="w-full">
+                <div class="w-full flex flex-col items-center justify-center bg-black">
+                    <div class="w-full mb-4 sm:w-[360px] md:w-[425px] lg:w-[570px] lg:mb-6">
+                        <img src="./assets/all-img/bg-img/banner.png" alt="">
+                    </div>
+                    <div class="w-full flex flex-col items-center justify-center text-center">
+                        <div class="flex flex-col items-center justify-center text-center mb-5 sm:w-[435px] md:w-[610px] lg:max-w-full lg:w-[1085px] lg:mb-8">
+                            <h1 class="font-manrope font-extrabold text-[28px] leading-[32px] text-[#212121] mb-4 md:text-[36px] md:leading-[49px] lg:text-[64px] lg:leading-[87px] lg:mb-6">A barn house of this design  has a striking appearance</h1>
+                            <p class="font-manrope font-medium text-sm leading-[24px] text-[#494949] md:w-[565px] md:text-base md:leading-[26px] lg:w-[972px]">A historical house type of a combined house and barn called a byre-dwelling or housebarn. Barnhouse Settlement, an archaeological site in Scotland.</p>
+                        </div>
+                        <button class="w-full h-[52px] flex items-center justify-center gap-2 py-[10px] px-[20px] font-manrope font-bold text-xl leading-[27px] text-[#212121] bg-[#ABEF5F80] border border-[#ABEF5F] rounded-full sm:w-[210px] sm:py-[10px] sm:px-[24px] group hover:bg-[#ABEF5F] transition-all duration-300 ease-in-out">
+                            <span>View Details</span>
+                            <div class="w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center group-hover:bg-[#1C1C1C] transition-all duration-300 ease-in-out">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-[#212121] group-hover:text-white transition-all duration-300 ease-in-out">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                          
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
         </div>
     </header>
     <!-- ================= main -->
