@@ -30,7 +30,7 @@
 </head>
 <body>
     <!-- ================= header -->
-    <header id="header" class="w-full min-h-[20vh] bg-gradient-to-t from-[#FFFFFF] to-[#f3f3f3d5]">
+    <header id="header" class="w-full min-h-[100vh] sm:min-h-max bg-gradient-to-t from-[#FFFFFF] to-[#f3f3f3d5]">
         <div class="container mx-auto px-5">
             <!-- ====================== navigation section -->
             <div class="w-full flex items-center justify-between py-8 md:pt-[40px] md:pb-[50px] ">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <!-- ====================== home section -->
-            <section id="home-section" class="w-full mb-10 lg:mb-16 lg:py-[20px]">
+            <section id="home-section" class="w-full mb-10 lg:mb-16 lg:py-[20px] flex items-center justify-center min-h-[75vh] sm:min-h-max">
                 <div class="w-full flex flex-col items-center justify-center">
                     <div class="w-full mb-4 sm:w-[360px] md:w-[425px] lg:w-[570px] lg:mb-6">
                         <img src="./assets/all-img/bg-img/banner.png" alt="">
@@ -107,7 +107,7 @@
     <!-- ================= main -->
     <main id="main" class="w-full bg-[#F4F4F4]">
         <!-- =================== about section -->
-        <section id="design-section" class="w-full min-h-[20vh] py-8 md:py-[72px] lg:py-[100px]">
+        <section id="design-section" class="w-full min-h-max py-8 md:pt-[35px] md:pb-[35px] lg:pt-[100px] lg:pb-[50px]">
             <div class="container mx-auto px-5">
                 <div class="w-full relative flex flex-col items-center justify-center gap-6 lg:flex-row lg:justify-between">
                     <div class="w-full lg:w-1/2 lg:max-w-[580px] flex flex-col items-center justify-center">
@@ -205,6 +205,66 @@
         </section>
         <!-- =================== about section -->
         <!-- =================== work section -->
+        <section id="work-section" class="w-full min-h-max py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px]">
+            <div class="container mx-auto px-5">
+                <!--=================== section heading  -->
+                <div class="w-full flex flex-col items-center justify-center">
+                    <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949]">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>                              
+                        </div>
+                        <span>How we works</span>
+                    </button>
+                    <div class="w-full sm:w-[435px] text-center md:max-w-full md:w-[654px]">
+                        <h1 class="font-manrope font-bold text-2xl leading-[33px] text-[#212121] mb-4 md:text-[32px] md:leading-[44px] md:mb-[24px]">Our Works Process</h1>
+                        <p class="font-manrope font-medium text-sm leading-[24px] text-[#494949] md:text-base md:leading-[26px]">Employment is good for your mental health as it allows you to meet people, boosts your self-esteem, and gives you a sense of purpose and identity.</p>
+                    </div>
+                </div>
+                <!--=================== section heading  -->
+                <!-- ================== card container -->
+                <div class="w-full mt-6 grid grid-cols-1 gap-4 items-center justify-items-center md:grid-cols-2 xl:grid-cols-4 md:gap-x-[20px] md:gap-y-6 xl:gap-x-6">
+                    <div class="w-full p-6 rounded-2xl bg-[#E7C1D3] sm:w-[435px] md:w-full">
+                        <div class="w-[48px] h-[48px] mb-[10px]">
+                            <img src="./assets/all-icon/work-icon/concept.png">
+                        </div>
+                        <div>
+                            <h1 class="font-manrope font-extrabold text-xl leading-[26px] text-[#1C1C1C] mb-[10px]">Concept</h1>
+                            <p class="font-manrope font-medium text-base leading-[26px] text-[#494949]">based on the assumption that a composed piece of music is a work.</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-6 rounded-2xl bg-[#EFDA6E] sm:w-[435px] md:w-full">
+                        <div class="w-[48px] h-[48px] mb-[10px]">
+                            <img src="./assets/all-icon/work-icon/chart.png">
+                        </div>
+                        <div>
+                            <h1 class="font-manrope font-extrabold text-xl leading-[26px] text-[#1C1C1C] mb-[10px]">Design Process</h1>
+                            <p class="font-manrope font-medium text-base leading-[26px] text-[#494949]">Design influences what we think, the way we feel and the decisions.</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-6 rounded-2xl bg-[#A4DAC3] sm:w-[435px] md:w-full">
+                        <div class="w-[48px] h-[48px] mb-[10px]">
+                            <img src="./assets/all-icon/work-icon/vision.png">
+                        </div>
+                        <div>
+                            <h1 class="font-manrope font-extrabold text-xl leading-[26px] text-[#1C1C1C] mb-[10px]">Supervision</h1>
+                            <p class="font-manrope font-medium text-base leading-[26px] text-[#494949]">Supervision is the act or function of overseeing something or somebody.</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-6 rounded-2xl bg-[#77AAEA] sm:w-[435px] md:w-full">
+                        <div class="w-[48px] h-[48px] mb-[10px]">
+                            <img src="./assets/all-icon/work-icon/budget-planning.png">
+                        </div>
+                        <div>
+                            <h1 class="font-manrope font-extrabold text-xl leading-[26px] text-[#1C1C1C] mb-[10px]">Budget Planning</h1>
+                            <p class="font-manrope font-medium text-base leading-[26px] text-[#494949]">A short-term budget is prepared for one month to one year. Before we buy.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ================== card container -->
+            </div>
+        </section>
         <!-- =================== work section -->
         <!-- =================== portfolio section -->
         <!-- =================== portfolio section -->
