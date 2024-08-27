@@ -209,7 +209,7 @@
             <div class="container mx-auto px-5">
                 <!--=================== section heading  -->
                 <div class="w-full flex flex-col items-center justify-center">
-                    <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949]">
+                    <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949] pointer-events-none">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -267,11 +267,11 @@
         </section>
         <!-- =================== work section -->
         <!-- =================== portfolio section -->
-        <section id="portfolio-section" class="w-full min-h-[100vh] py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px] lg:bg-white">
+        <section id="portfolio-section" class="w-full min-h-max py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px] lg:bg-white">
             <div class="container mx-auto px-5">
                 <!--=================== section heading  -->
                 <div class="w-full flex flex-col items-center justify-center">
-                    <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949]">
+                    <button class="flex items-center justify-center gap-2 bg-[#ABEF5F33] py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949] pointer-events-none">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -333,11 +333,128 @@
                     </div>
                     <!-- <div class="w-full grid grid-cols-1 items-center justify-items-center gap-y-4 md:grid-cols-2 md:gap-5">
                     </div> -->
-                </div>
+                </div>  
                 <!--=================== card container  -->
             </div> 
         </section>
         <!-- =================== portfolio section -->
+
+        <!-- =================== extra section design part -->
+        <!-- =================== faq and client say section -->
+        <section id="faq-section" class="w-full min-h-max bg-[url('./assets/all-img/bg-img/faq-img.jpg')] bg-center bg-no-repeat bg-cover bg-fixed">
+            <div class="w-full min-h-max bg-gradient-to-t from-[#f4f4f4e3] to to-[#f4f4f4e3] py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px]">
+                <div class="container mx-auto px-5">
+                    <!--=================== section heading  -->
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949] pointer-events-none">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                              
+                            </div>
+                            <span>Faq's</span>
+                        </button>
+                        <div class="w-full sm:w-[435px] text-center md:max-w-full md:w-[654px]">
+                            <h1 class="font-manrope font-bold text-2xl leading-[33px] text-[#212121] mb-4 md:text-[32px] md:leading-[44px] md:mb-[24px] lg:text-[40px] lg:leadign-[55px]">Frequently Asked Any Questions</h1>
+                            <p class="font-manrope font-medium text-sm leading-[24px] text-[#494949] md:text-base md:leading-[26px]">It is a compilation of common questions and their corresponding answers that are often asked by customers or users.</p>
+                        </div>
+                    </div>
+                    <!--=================== section heading  -->
+                    <!--=================== faq  -->
+                    <div class="w-full mt-6 grid grid-cols-1 items-center justify-items-center gap-y-[16px] md:grid-cols-1 md:gap-x-[32px] lg:grid-cols-2 lg:mt-8">
+                        <div class="w-full sm:w-[435px] md:w-full md:h-full flex items-center justify-center">
+                            <div class="w-full flex flex-col items-center justify-center gap-4 md:gap-5 lg:gap-6">
+                                <div class="collapse collapse-plus bg-white rounded-lg px-4 py-4 shadow-none">
+                                    <input type="radio" name="my-accordion-3"/>
+                                    <div class="collapse-title text-xl font-bold font-manrope px-[10px] flex items-center justify-between">
+                                        <h1 class="font-manrope font-bold leading-5 text-base text-[#212121] md:text-lg lg:text-xl">1. Why Rinterio?</h1>
+                                    </div>
+                                    <div class="collapse-content">
+                                      <p class="font-manrope leading-5 text-sm text-[#494949]">Rinterio is the house building company. We have professional engineers to build our dream house.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-white rounded-lg px-4 py-4 shadow-none">
+                                    <input type="radio" name="my-accordion-3"/>
+                                    <div class="collapse-title text-xl font-bold font-manrope px-[10px] flex items-center justify-between">
+                                        <h1 class="font-manrope font-bold leading-5 text-base text-[#212121] md:text-lg lg:text-xl">2. What is our service?</h1>
+                                    </div>
+                                    <div class="collapse-content">
+                                      <p class="font-manrope leading-5 text-sm text-[#494949]">We provide new models and elegant house designs.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-white rounded-lg px-4 py-4 shadow-none">
+                                    <input type="radio" name="my-accordion-3"/>
+                                    <div class="collapse-title text-xl font-bold font-manrope px-[10px] flex items-center justify-between w-full">
+                                        <h1 class="font-manrope font-bold leading-5 text-base text-[#212121] md:text-lg lg:text-xl">3. How do we finish our work?</h1>
+                                    </div>
+                                    <div class="collapse-content">
+                                      <p class="font-manrope leading-5 text-sm text-[#494949]">We finish our work based on four layers. We try to understand the client's concept, then we try to conceptualize the design and build it.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-white rounded-lg px-4 py-4 shadow-none">
+                                    <input type="radio" name="my-accordion-3"/>
+                                    <div class="collapse-title text-xl font-bold font-manrope px-[10px] flex items-center justify-between w-full">
+                                        <h1 class="font-manrope font-bold leading-5 text-base text-[#212121] md:text-lg lg:text-xl">4. Why provide facilities?</h1>
+                                    </div>
+                                    <div class="collapse-content">
+                                      <p class="font-manrope leading-5 text-sm text-[#494949] md:text-base lg:leading-[26px]">We want to make our clients happy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[200px] sm:w-[335px] grayscale -order-1 md:w-full md:py-4 flex items-center justify-end md:justify-center lg:order-1 lg:justify-end">
+                            <img src="./assets/all-img/faq-img/faq.png" class="">
+                        </div>
+                    </div>
+                    <!--=================== faq  -->
+                </div>
+            </div>
+            <!--=================== sponsors -->
+            <div class="w-full min-h-max bg-white py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px]">
+                <div class="container mx-auto px-5">
+                    <!--=================== section heading  -->
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <button class="flex items-center justify-center gap-2 bg-[#ABEF5F33] py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949] pointer-events-none">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                              
+                            </div>
+                            <span>Sponsorship</span>
+                        </button>
+                        <div class="w-full sm:w-[435px] text-center md:max-w-full md:w-[654px]">
+                            <h1 class="font-manrope font-bold text-2xl leading-[33px] text-[#212121] mb-4 md:text-[32px] md:leading-[44px] md:mb-[24px] lg:text-[40px] lg:leadign-[55px]">sponsors</h1>
+                            <p class="font-manrope font-medium text-sm leading-[24px] text-[#494949] md:text-base md:leading-[26px]">Sponsorship advertising involves a company promoting a brand by offering financial support.</p>
+                        </div>
+                    </div>
+                    <!--=================== section heading  -->
+                    <div class="w-full mt-4 grid grid-cols-1 items-center justify-items-center  md:grid-cols-2 lg:grid-cols-3 lg:mt-8 grayscale">
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-1.png" alt="">
+                        </div>
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-2.png" alt="">
+                        </div>
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-3.png" alt="">
+                        </div>
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-4.png" alt="">
+                        </div>
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-5.png" alt="">
+                        </div>
+                        <div class="w-[200px]">
+                            <img src="./assets/all-logo/logo-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=================== sponsors -->
+        </section>
+        <!-- =================== faq and client say section -->
+        <!-- =================== extra section design part -->
+
     </main>
     <!-- ================= footer -->
 </body>
