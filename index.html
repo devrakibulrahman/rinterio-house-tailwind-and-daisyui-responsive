@@ -64,7 +64,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>                                                       
                         </button>
-                        <button class="w-[208px] h-[48px] flex items-center justify-center bg-[#ABEF5F] rounded-full gap-2">
+                        <button class="w-[208px] h-[48px] flex items-center justify-center bg-[#ABEF5F] rounded-full gap-2 hover:bg-[#bafa71] transition duration-300 ease-in-out">
                             <span class="font-manrope font-extrabold text-xl leading-[27px] text-[#1C1C1C]">Book Consult</span>
                             <div class="w-[28px] h-[28px] bg-[#1C1C1C] rounded-full flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
@@ -567,6 +567,61 @@
             </div>
         </section>
         <!-- =================== Articles section -->
+        <!-- =================== form section -->
+        <section id="form-section" class="w-full min-h-max bg-white p-2">
+            <div class="w-full min-h-max bg-[url('./assets/all-img/form-img/bg.jpg')] bg-center bg-no-repeat bg-cover py-8 md:pt-[35px] md:pb-[35px] lg:py-[50px]">
+                <div class="container mx-auto px-5">
+                    <!--=================== section heading  -->
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <button class="flex items-center justify-center gap-2 bg-white py-[8px] px-[20px] rounded-full mb-4 font-manrope font-bold text-base leading-[22px] text-[#494949] pointer-events-none">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                              
+                            </div>
+                            <span>Let’s Connect</span>
+                        </button>
+                        <div class="w-full sm:w-[435px] text-center md:max-w-full md:w-[654px]">
+                            <h1 class="font-manrope font-bold text-2xl leading-[33px] text-[#212121] mb-4 md:text-[32px] md:leading-[44px] md:mb-[24px] lg:text-[40px] lg:leadign-[55px]">Let’s Discuss Next Project</h1>
+                            <p class="font-manrope font-medium text-sm leading-[24px] text-[#494949] md:text-base md:leading-[26px]">If you need a new, elegant house design, please contact us.</p>
+                        </div>
+                    </div>
+                    <!--=================== section heading  -->
+                    <!--=================== form container  -->
+                    <div class="w-full mt-8">
+                        <form action="#" class="w-full">
+                            <div class="w-full h-full grid grid-cols-1 items-center justify-items-center gap-5">
+                                <div class="w-full flex flex-col items-center justify-center gap-5  md:flex-row">
+                                    <div class="w-full flex flex-col items-center justify-center gap-5">
+                                        <input type="text" placeholder="First Name*" class="input w-full border border-[#E9E9E9] rounded-[64px] py-[17px] focus:outline-none focus:border-none font-manrope font-medium text-base leaing-[22px] text-[#A0A0A0] md:py-[20px]" />
+                                        <input type="text" placeholder="Last Name*" class="input w-full border border-[#E9E9E9] rounded-[64px] py-[17px] focus:outline-none focus:border-none font-manrope font-medium text-base leaing-[22px] text-[#A0A0A0] md:py-[20px]" />
+                                    </div>
+                                    <div class="w-full flex flex-col items-center justify-center gap-5">
+                                        <input type="text" placeholder="Phone Number*" class="input w-full border border-[#E9E9E9] rounded-[64px] py-[17px] focus:outline-none focus:border-none font-manrope font-medium text-base leaing-[22px] text-[#A0A0A0] md:py-[20px]"/>
+                                        <input type="text" placeholder="Email Number*" class="input w-full border border-[#E9E9E9] rounded-[64px] py-[17px] focus:outline-none focus:border-none font-manrope font-medium text-base leaing-[22px] text-[#A0A0A0] md:py-[20px]" />
+                                    </div>
+                                </div>
+                                <div class="w-full flex flex-col items-center justify-center">
+                                    <textarea class="textarea w-full h-[240px] textarea border border-[#E9E9E9] rounded-[32px] focus:border-none focus:outline-none p-5 font-manrope font-medium text-base leaing-[22px] text-[#A0A0A0] md:py-[21px]" placeholder="Write your message here"></textarea>
+                                </div>
+                                <div class="w-full mt-8">
+                                    <button class="w-full h-[48px] flex items-center justify-center bg-[#ABEF5F] rounded-full gap-2 hover:bg-[#bafa71] transition duration-300 ease-in-out">
+                                        <span class="font-manrope font-extrabold text-xl leading-[27px] text-[#1C1C1C]">Send Mail</span>
+                                        <div class="w-[28px] h-[28px] bg-[#1C1C1C] rounded-full flex items-center justify-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg> 
+                                        </div>                             
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--=================== form container  -->
+                </div>
+            </div>
+        </section>
+        <!-- =================== form section -->
     </main>
     <!-- ================= footer -->
 </body>
